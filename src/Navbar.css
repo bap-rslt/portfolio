@@ -1,0 +1,36 @@
+.navbar{
+    padding-top: 3vh;
+    background:rgb(20, 26, 75);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;/* Aligne en ligne*/
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.button-navbar{
+    background:rgb(20, 26, 75);
+    border: 2px solid rgb(20, 26, 75); /* Largeur et couleur de la bordure du bouton */
+    border-radius: 15px;
+    width: 10vw;
+    height: 7vh;
+    margin: 1vw;
+}
+
+.button-navbar:hover {
+    background-color: #2980b9; /* Couleur de fond du bouton lorsqu'il est survolé */
+    border-color: #2980b9; /* Couleur de la bordure du bouton lorsqu'il est survolé */
+  }
+
+.text-button-navbar{
+    color:rgb(255,255,255);
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+@media screen and (max-height: 300px) {
+    button {
+      font-size: 1vh; /* Utilisation de l'unité de vue en hauteur (vh) pour ajuster la taille en fonction de la hauteur */
+    }
+  }

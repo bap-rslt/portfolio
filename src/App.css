@@ -1,0 +1,13 @@
+.background {
+  background-color: #9cb6e9;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+}
+
+
+
+.padding {
+  padding: 50px;
+  /*background-color: #eb1d5b;*/
+}

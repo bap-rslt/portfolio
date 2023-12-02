@@ -1,0 +1,44 @@
+.fond{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+    flex-direction: column;
+  }
+
+.xp_card {
+    /* Add shadows to create the "card" effect */
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding : 2vh;
+    border-radius: 15px;
+    background:white;
+    height: 65vh;
+    width: 50vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    align-items: center;
+  }
+
+  .xp_image{
+    align-self: center;
+  }
+  
+  .xp_title{
+    text-align:center;
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+
+  .xp_description{
+    text-align:left;
+    white-space:pre-line;
+    padding-top: 10px;
+    line-height: 2em;
+  }
+
+  .xp_text_card{
+    display: flex;
+    flex-direction: column;
+  }

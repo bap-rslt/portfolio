@@ -1,0 +1,47 @@
+.skills-fond{
+    /*background:rgb(0, 170, 255);*/
+    display: flex;
+    flex-direction: row;/* Aligne en colonne*/
+}
+
+.Skill {
+    display: flex;
+    flex-direction: row; /* Aligne en ligne */
+    gap: 3vw; /* Espacement de 5vw entre les éléments */
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  
+.skills_descriptif{
+    display: flex;
+    flex-direction: column;/* Aligne en colonne*/
+    justify-content: center; /* Centre horizontalement */
+}
+
+.skills_title{
+    font-weight: bold;
+}
+
+.skills_images{
+    display: flex;
+    flex-direction: row;/* Aligne en liggne*/
+    justify-content: center; /* Centre horizontalement */
+    gap:1vw;
+    align-items: center; /* Centre verticalement */
+}
+
+.skills_descriptions{
+    white-space: pre-line;
+}
+
+.INFO{
+    display: flex;
+    flex-direction: column;/* Aligne en column*/
+    margin-left:18vw;
+}
+
+.LANGUE{
+    display: flex;
+    flex-direction: column;/* Aligne en column*/
+    margin-left:10vw;
+}
